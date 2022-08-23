@@ -1,0 +1,45 @@
+body {
+  background-image: url(./project1/background.webp);
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.prva-sekcija {
+  background-color: palevioletred;
+  border: 1px solid beige;
+  text-align: justify;
+  border-radius: 12px;
+  margin: 60px;
+  padding: 30px;
+  color: black;
+}
+
+img {
+  float: left;
+  padding: 20px;
+}
+
+.druga-sekcija {
+  background-color: palevioletred;
+  border: 1px double beige;
+  text-align: justify;
+  border-radius: 12px;
+  margin: 30px;
+  padding: 20px 20px;
+}
+
+.druga-sekcija table {
+  width: 100%;
+}
+
+table,
+th,
+td {
+  border: 1px solid rgb(199, 5, 102);
+  padding: 2px;
+  background-color: beige;
+}
+
+h2 {
+  font-family: "Times New Roman", Times, serif;
+}
