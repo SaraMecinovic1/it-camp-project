@@ -1,0 +1,46 @@
+body {
+  background-color: grey;
+  color: black;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.container > div {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  margin: 20px;
+  font-size: 20px;
+
+  align-items: center;
+}
+
+.item1 {
+  flex-basis: 300px;
+  height: 200px;
+  background-color: brown;
+  text-align: justify;
+}
+
+.item2 {
+  flex-basis: 300px;
+  height: 200px;
+  background-color: brown;
+  display: flex;
+  flex-direction: column;
+}
+
+.item3 {
+  flex-basis: 300px;
+  height: 200px;
+  background-color: brown;
+}
+
+.item4 {
+  flex-basis: 300px;
+  height: 200px;
+  background-color: brown;
+}
