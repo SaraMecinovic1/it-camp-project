@@ -2,12 +2,14 @@ body {
   background-color: #4877fb;
   color: white;
   font-size: 20px;
-
+  margin: 0;
+  padding: 0;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 .header {
   width: 100%;
+  color: white;
   height: 10vh;
   display: flex;
   align-items: center;
@@ -19,10 +21,13 @@ body {
   width: 20%;
   font-size: 40px;
   padding: 10px 10px;
+  display: flex;
+  flex-direction: row;
 }
 
 .nav {
   width: 40%;
+  color: white;
   height: 100%;
   display: flex;
   align-items: center;
@@ -43,11 +48,23 @@ body {
   display: flex;
   flex-direction: column;
   text-align: left;
-  margin: 10px 30px;
+  margin: 10px 40px;
+  font-size: 30px;
+}
+
+.link {
+  border-radius: 5px;
+  padding: 10px;
+  display: inline-block;
+  text-align: center;
+  color: white;
+  background-color: rgb(97, 97, 233);
+  font-size: 10px;
 }
 
 .item1 p {
   text-align: left;
+  color: white;
 }
 
 .item2 {
@@ -63,4 +80,50 @@ body {
 img {
   width: 400px;
   height: 80%;
+}
+
+.foother {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.text {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(211, 207, 207);
+  width: 100%;
+  height: 70vh;
+}
+
+.text > div {
+  background-color: #f1f1f1;
+  width: 100%;
+  height: 50vh;
+  margin: 50px 5px;
+  padding: 5px;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.color {
+  font-size: 20px;
+  color: rgb(92, 90, 90);
+}
+h4 {
+  color: black;
+}
+.img {
+  width: 50px;
+  height: 50px;
+  display: block;
+
+  margin: 0px 10px;
+}
+.img1 {
+  display: block;
+  width: 40px;
+  height: 40px;
 }
