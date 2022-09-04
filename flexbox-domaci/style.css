@@ -6,6 +6,7 @@ body {
   padding: 0;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    height: 100vh;
 }
 .header {
   width: 100%;
@@ -14,6 +15,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  
+  
 }
 
 .logo {
@@ -40,7 +46,8 @@ body {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  margin-top: 40px;
+  height:100vh ;
+  
 }
 .item1 {
   width: 40%;
@@ -89,14 +96,18 @@ img {
   flex-direction: row;
   align-items: flex-end;
   justify-content: space-between;
+  
 }
 
 .text {
   display: flex;
   flex-direction: row;
   background-color: rgb(211, 207, 207);
+  justify-content: flex-end;
   width: 100%;
-  height: 70vh;
+  height: 90vh;
+  
+  
 }
 
 .text > div {
@@ -104,7 +115,7 @@ img {
   width: 100%;
   height: 50vh;
   margin: 50px 5px;
-  padding: 5px;
+  padding: 15px;
   justify-content: space-evenly;
   flex-direction: column;
 }
@@ -127,3 +138,4 @@ h4 {
   width: 40px;
   height: 40px;
 }
+
