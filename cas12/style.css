@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    height: 100vh;
+    background-color: rgb(50, 117, 117);
+    display: flexer;
+
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   background-color: rgb(11, 85, 85);
+   
+   width: 100%;
+}
+
+.nav.img{
+    height: 50px;
+}
+
+.nav.container a {
+margin: 10px 30px;
+text-decoration: none;
+color: white;
+}
+
+.nav.button{
+display: block;
+background-color: brown;
+padding: 10px 40px;
+align-items: center;
+
+
+}
+.horizontal.line{
+    width: 200px;
+    height: 2px;
+    background-color: white;
+
+}
+.head

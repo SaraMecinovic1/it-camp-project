@@ -1,0 +1,86 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(250, 245, 245);
+
+  padding-top: 50px;
+}
+.header {
+  width: 100%;
+  height: 50px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  flex-direction: column;
+}
+.line {
+  width: 150px;
+  height: 2px;
+  background-color: rgb(78, 161, 78);
+  margin: 5px;
+}
+.text {
+  width: 100%;
+  height: 100px;
+
+  margin-top: 20px;
+  text-align: center;
+  justify-content: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.flex-card {
+  display: flex;
+  justify-content: space-evenly;
+}
+.item1 {
+  width: 40vh;
+  height: 40vh;
+  padding: 10px;
+}
+
+p {
+  padding: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+}
+h3 {
+  text-align: center;
+  color: rgb(8, 68, 8);
+}
+
+.item2 {
+  width: 40vh;
+  height: 40vh;
+  padding: 10px;
+}
+.item3 {
+  width: 40vh;
+  height: 40vh;
+  padding: 10px;
+}
+.item4 {
+  width: 40vh;
+  height: 40vh;
+  padding: 10px;
+}
+.border {
+  margin: 10px auto;
+  width: 60px;
+  border-radius: 50%;
+  background-color: rgb(78, 161, 78);
+}
+.img {
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+}
+h2 {
+  color: rgb(8, 68, 8);
+}
